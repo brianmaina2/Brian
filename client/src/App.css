@@ -1,0 +1,75 @@
+ .transaction-list {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .transaction-list th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .transaction-list td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .transaction-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .transaction-list tr:hover {
+    background-color: #ddd;
+  }
+
+
+  .my-class {
+    color: red;
+    text-align: center;
+    background-color: rgb(175, 234, 215);
+    width: 100%;
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+  }
+  .my-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .my-class img {
+    border-radius: 50%;
+    width: 100vw; /* set width to full viewport width */
+    height: 100vh; /* set height to full viewport height */
+    object-fit: cover;
+    object-position: center; /* center the image */
+    margin: 0; /* remove any margins */
+  }
+  
+  
+  button {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button.delete:hover {
+    background-color: red;
+  }
+  
+  button.edit:hover {
+    background-color: blue;
+  }
+
+  
+  
+  

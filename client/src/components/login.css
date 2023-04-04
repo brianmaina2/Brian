@@ -1,0 +1,37 @@
+form {
+    position: fixed;
+    left: 50%;
+    top: 61%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #00090b;
+    border: 1px solid #ccc;
+    border-radius: 5px 10px 5px 10px; /* horizontal radii first, then vertical radii */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,24 @@
+.footer-container {
+  background-color: #e78721;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.finance {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.finance p {
+  margin: 5px 0;
+}
+
+.finance footer {
+  margin-top: 20px;
+  color: #060505;
+  font-size: 14px;
+}
